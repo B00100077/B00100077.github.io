@@ -1,0 +1,173 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	margin-right: auto;
+    margin-left: auto;
+	min-width: 200px;
+	min-height: 320px;
+	max-width: 960px;
+	max-height: 1024px;
+	height:1024px;
+	
+	/****************************************************************************
+	THIS is the gradient background from w3schools, so please
+	                   don't think I'm that smart. I just copied the lines here
+	*****************************************************************************/
+	background: red; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(red, yellow); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(red, yellow); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(red, yellow); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(red, yellow); /* Standard syntax */
+	background-position: center;
+}
+.container{
+	margin-right: auto;
+    margin-left: auto;
+	height: 90%;
+    width: 90%;
+	border: 1px solid #000000;	
+}
+header{
+	width: 100%;
+	height: 10%;
+	border-bottom: 1px solid #000000;
+	background: red; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(yellow, red); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(yellow, red); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(yellow, red); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(yellow, red); /* Standard syntax */
+	background-position: center;
+}
+header img{
+	width: 100%;
+}
+header h2.top{
+	margin-top: 0;
+	padding-top: 1.2%;
+	padding-left: 1.2%;
+	font-size: 4em;
+	font-family: Copperplate Gothic Light;
+	text-align: center;
+}
+header h2.bottom{
+	margin-top: -15.36%;
+	padding-top: 0.35%; 
+	font-size: 4em;
+	font-family: Copperplate Gothic Light;
+	color:lightslategrey;
+	text-align: center;
+}
+
+/***********************NAVBAR is here *******************/
+nav{
+	width: 25%;
+	min-width: 80px;
+	height: 85%;
+	float: left;
+	border-right: 1px solid #000000;
+}
+nav ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;	
+}
+nav li {
+	width: 95%;
+	margin: 2%;
+	border-radius: 20px;
+	border: 1px solid #555;	
+	text-align: center;
+}
+nav li a {
+	padding-top: 10%;
+	padding-bottom: 10%;
+	display: block;
+	text-decoration: none;	
+	background-color: #dddddd;
+	border-radius: 20px;
+}
+nav li a img{
+	height: 10%;
+	width: 10%;
+	visibility:hidden;
+}
+nav li a:hover img{
+	visibility:visible;
+}
+nav li a:hover{
+	background-color: #555;
+	border: 1px solid yellow;
+	color:yellow;
+}
+.active{
+	background-color: #4caf50;
+	color: white;
+}
+.section{
+	width: 75%;
+	height: 85%;
+	margin-left: 25%;
+	
+}
+article{
+	margin: 2%;
+	width: 98%;
+	height: 48%;
+}
+article hgroup {
+	margin-top: 5%;
+	width: 60%;
+}
+article p{
+	
+	margin-top: 5%;
+	width: 60%;
+}
+article figure{
+	float:right;
+	margin-right: 1%;
+	height: 90%;
+		
+	
+}
+article figure img{
+	border-radius: 20px;
+	margin: 0;
+	height: 80%;	
+}
+figcaption{
+	text-align: center;
+	font-style: italic;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	font-size: 0.7em;
+}
+
+footer{
+	height: 5%;	
+	position: fixed;
+	bottom:0;
+	margin:0.5%;
+	left:auto;
+}
+footer p{
+	float: left;
+}
+footer img{
+	width: 25px;
+	border-radius: 50%;  /*This gives the img a nice circle shape */
+}
+footer ul{
+	float: left;
+	list-style-type: none;
+	margin: 0;
+	margin-left: 10px;
+	margin-top: 10px;
+	padding: 0;	
+}
+footer li{
+	display: inline;
+	float: left;
+}
+
+
+

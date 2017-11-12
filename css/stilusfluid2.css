@@ -1,0 +1,198 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	margin-right: auto;
+    margin-left: auto;
+	min-width: 200px;
+	min-height: 320px;
+	max-width: 960px;
+	max-height: 1024px;
+	height:1024px;
+	
+	/****************************************************************************
+	THIS is the gradient background from w3schools, so please
+	                   don't think I'm that smart. I just copied the lines here
+	*****************************************************************************/
+	background: red; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(red, yellow); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(red, yellow); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(red, yellow); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(red, yellow); /* Standard syntax */
+	background-position: center;
+}
+.container{
+	margin-right: auto;
+    margin-left: auto;
+	height: 90%;
+    width: 90%;
+	border: 1px solid #000000;		
+}
+header{
+	width: 100%;
+	height: 10%;
+	border-bottom: 1px solid #000000;
+	background: red; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(yellow, red); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(yellow, red); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(yellow, red); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(yellow, red); /* Standard syntax */
+	background-position: center;
+}
+header img{
+	width: 100%;
+}
+
+
+/***********************NAVBAR is here *******************/
+nav{
+	width: 100%;
+	float: left;
+}
+nav ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;	
+}
+nav li {
+	width: 18.9%;
+	min-width: 80px;
+	margin: 0.4%;
+	display: inline;
+	border: 1px solid #555;	
+	text-align: center;
+	float: left;
+	border-radius: 20px;
+}
+nav li a {
+	padding-top: 10%;
+	padding-bottom: 10%;
+	display: block;
+	text-decoration: none;	
+	background-color: #dddddd;	
+	border-radius: 20px;
+}
+nav li a img{
+	height: 10%;
+	width: 10%;
+	visibility:hidden;
+}
+nav li a:hover img{
+	visibility:visible;
+}
+nav li a:hover{
+	background-color: #555;
+	border: 1px solid yellow;
+	color:yellow;
+}
+.active{
+	background-color: #4caf50;
+	color: white;
+}
+.section{
+	margin-top: 8%;
+	height: 80%;
+}
+
+article.main{
+	float: left;
+	width: 48%;
+	margin: 0.5%;
+	height: 98%;
+	border: 1px solid #000000;
+	border-radius: 8px;
+	overflow-y: auto;  /*This adds the scrollbar if needed. */
+}
+
+ /* This following article.main:: sections are copied from https://codepen.io/devstreak/pen/dMYgeO it is not my work 
+	It changes the scrollbar from the default view */
+article.main::-webkit-scrollbar
+{
+	width: 12px;
+	background-color: #F5F5F5;
+} 
+article.main::-webkit-scrollbar-thumb
+{
+	border-radius: 10px;
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+	background-color: #D62929;
+}
+
+article.main p,h3{
+	margin:1%;
+}
+hr{
+	margin: auto;
+	width: 80%;
+}
+
+article{
+	float: left;
+	margin: 0.5%;
+	width: 24%;
+	height: 98%;
+	border: 1px solid #000000;
+	border-radius: 8px;
+}
+article li, h3{
+	margin: 15px;
+}
+figure{
+	margin: auto;	
+}
+figure img{
+	max-width: 100%;
+	height: auto;
+	border-radius: 8px;
+}
+figure figcaption{
+	position: relative;
+	margin:2%;
+	text-align: center;
+	font-size: 50%;	
+}
+.textNegative3em{
+	bottom: 3.5em;
+}
+.textNegative2em{
+	bottom:2.5em;
+}
+.textBlack{
+	color:black;
+}
+.textWhite{
+	color:white;
+}
+.hrForCol3{
+	margin-top: -1em;
+	margin-bottom: 1em;
+}
+
+footer{
+	height: 5%;	
+	position: fixed;
+	bottom:0;
+	margin:0.5%;
+	left:auto;
+}
+footer p{
+	float: left;
+}
+footer img{
+	width: 25px;
+	border-radius: 50%;
+}
+footer ul{
+	float: left;
+	list-style-type: none;
+	margin: 0;
+	margin-left: 10px;
+	margin-top: 10px;
+	padding: 0;	
+}
+footer li{
+	display: inline;
+	float: left;
+}
+
+
+
